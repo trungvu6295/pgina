@@ -1,0 +1,20 @@
+﻿  SSHAuthNative.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\trungvl\Projects\pgina\Plugins\SSHAuth\SSHAuthNative\Release\Win32\SSHAuthNative.dll) does not match the Linker's OutputFile property value (C:\Users\trungvl\Projects\pgina\Plugins\bin\SSHAuthNative.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\trungvl\Projects\pgina\Plugins\SSHAuth\SSHAuthNative\Release\Win32\SSHAuthNative.lib and object C:\Users\trungvl\Projects\pgina\Plugins\SSHAuth\SSHAuthNative\Release\Win32\SSHAuthNative.exp
+libssh2.lib(misc.obj) : error LNK2001: unresolved external symbol __imp__vsnprintf
+MSVCRT.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol __imp__vsnprintf
+libssh2.lib(channel.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+MSVCRT.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol __imp___vsnprintf
+libcrypto.lib(cryptlib.obj) : error LNK2001: unresolved external symbol _sscanf
+libcrypto.lib(v3_utl.obj) : error LNK2001: unresolved external symbol _sscanf
+libcrypto.lib(cryptlib.obj) : error LNK2001: unresolved external symbol __vsnwprintf
+libcrypto.lib(cryptlib.obj) : error LNK2001: unresolved external symbol __vsnprintf
+libcrypto.lib(eng_openssl.obj) : error LNK2001: unresolved external symbol _fprintf
+libcrypto.lib(pem_lib.obj) : error LNK2001: unresolved external symbol _fprintf
+libcrypto.lib(ui_openssl.obj) : error LNK2001: unresolved external symbol _fprintf
+libcrypto.lib(eng_openssl.obj) : error LNK2001: unresolved external symbol ___iob_func
+libcrypto.lib(e_capi.obj) : error LNK2001: unresolved external symbol ___iob_func
+libcrypto.lib(pem_lib.obj) : error LNK2001: unresolved external symbol ___iob_func
+libcrypto.lib(ui_openssl.obj) : error LNK2001: unresolved external symbol ___iob_func
+libcrypto.lib(dso_win32.obj) : error LNK2001: unresolved external symbol _sprintf
+..\..\bin\SSHAuthNative.dll : fatal error LNK1120: 9 unresolved externals

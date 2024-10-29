@@ -1,0 +1,13 @@
+﻿  authfuncs.cpp
+     Creating library C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\x64\authdll.lib and object C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\x64\authdll.exp
+  authdll.vcxproj -> C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\x64\authdll.dll
+  
+  Microsoft Visual Studio 2022 Version 17.11.5.
+  Copyright (C) Microsoft Corp. All rights reserved.
+  Build started at 1:53 PM...
+  1>------ Build started: Project: authdll, Configuration: Debug Win32 ------
+  1>authfuncs.cpp
+  1>   Creating library C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\Win32\authdll.lib and object C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\Win32\authdll.exp
+  1>authdll.vcxproj -> C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\Win32\authdll.dll
+  ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+  ========== Build completed at 1:53 PM and took 03.706 seconds ==========

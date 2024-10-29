@@ -1,0 +1,170 @@
+Rebuild started at 2:19 PM...
+1>------ Rebuild All started: Project: Abstractions, Configuration: Release Any CPU ------
+
+Package 'Code Analysis Package' failed to load.
+2>------ Rebuild All started: Project: Lib, Configuration: Release x64 ------
+2>BinaryReader.cpp
+1>  Abstractions -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\Abstractions.dll
+2>BinaryWriter.cpp
+3>------ Rebuild All started: Project: Shared, Configuration: Release Any CPU ------
+2>Helpers.cpp
+3>  Shared -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.Shared.dll
+2>pGinaMessages.cpp
+4>------ Rebuild All started: Project: encryptsetting, Configuration: Release Any CPU ------
+5>------ Rebuild All started: Project: InstallUtil, Configuration: Release Any CPU ------
+6>------ Rebuild All started: Project: CredentialProviderRegistration, Configuration: Release Any CPU ------
+7>------ Rebuild All started: Project: Core, Configuration: Release Any CPU ------
+5>  InstallUtil -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.InstallUtil.exe
+2>Message.cpp
+2>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+2>(compiling source file '../../Lib/pGinaMessages.cpp')
+2>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+2>(compiling source file '../../Lib/pGinaMessages.cpp')
+4>  encryptsetting -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\encryptsetting.exe
+2>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+2>(compiling source file '../../Lib/Message.cpp')
+2>pGinaTransactions.cpp
+2>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+2>(compiling source file '../../Lib/pGinaTransactions.cpp')
+2>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+2>(compiling source file '../../Lib/pGinaTransactions.cpp')
+2>PipeClient.cpp
+6>  CredentialProviderRegistration -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.CredentialProvider.Registration.exe
+2>Registry.cpp
+7>  Core -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.Core.dll
+2>Threading.cpp
+8>------ Rebuild All started: Project: Configuration, Configuration: Release Any CPU ------
+9>------ Rebuild All started: Project: Impl, Configuration: Release Any CPU ------
+9>  Impl -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.Service.Impl.dll
+8>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5823,5): warning MSB3061: Unable to delete file "C:\Users\trungvl\Projects\pgina\pGina\src\bin\log4net.config". Access to the path 'C:\Users\trungvl\Projects\pgina\pGina\src\bin\log4net.config' is denied. 
+8>  Configuration -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.Configuration.exe
+10>------ Rebuild All started: Project: Service (Service\Service), Configuration: Release Any CPU ------
+11>------ Rebuild All started: Project: Console, Configuration: Release Any CPU ------
+2>Lib.vcxproj -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\x64\NativeLib.lib
+2>Done building project "Lib.vcxproj".
+11>  Console -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.Service.Console.exe
+12>------ Rebuild All started: Project: CredentialProvider, Configuration: Release x64 ------
+13>------ Rebuild All started: Project: NativeLibTest, Configuration: Release x64 ------
+10>  Service -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\pGina.Service.ServiceHost.exe
+12>ClassFactory.cpp
+13>NativeLibTest.cpp
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiTypes.h(44,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::PGINA_FIELD_DATA_SOURCE' when no variable is declared
+12>(compiling source file 'ClassFactory.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+12>(compiling source file 'ClassFactory.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+12>(compiling source file 'ClassFactory.cpp')
+12>Credential.cpp
+13>stdafx.cpp
+13>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+13>(compiling source file 'NativeLibTest.cpp')
+13>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+13>(compiling source file 'NativeLibTest.cpp')
+13>Generating code
+13>Previous IPDB not found, fall back to full compilation.
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+12>(compiling source file 'Credential.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+12>(compiling source file 'Credential.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiTypes.h(44,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::PGINA_FIELD_DATA_SOURCE' when no variable is declared
+12>(compiling source file 'Credential.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiLogon.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::LOGON_UI_FIELD_ID' when no variable is declared
+12>(compiling source file 'Credential.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiUnlock.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::LOCKED_UI_FIELD_ID' when no variable is declared
+12>(compiling source file 'Credential.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiChangePassword.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::CHANGE_PASSWORD_UI_FIELD_ID' when no variable is declared
+12>(compiling source file 'Credential.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\Credential.cpp(408,49): warning C4838: conversion from 'DWORD' to 'int' requires a narrowing conversion
+13>All 488 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+13>Finished generating code
+12>CredentialProviderFilter.cpp
+13>NativeLibTest.vcxproj -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\x64\NativeLibTest.exe
+13>Done building project "NativeLibTest.vcxproj".
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+12>(compiling source file 'CredentialProviderFilter.cpp')
+14>------ Rebuild All started: Project: Gina (Gina\Gina), Configuration: Release x64 ------
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+12>(compiling source file 'CredentialProvider/CredentialProviderFilter.cpp')
+14>DialogBase.cpp
+12>Dll.cpp
+12>Provider.cpp
+14>DialogLoggedOutSAS.cpp
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+12>(compiling source file '../../CredentialProvider/Provider.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+14>(compiling source file 'DialogLoggedOutSAS.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+14>(compiling source file 'DialogLoggedOutSAS.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Gina\Gina\DialogLoggedOutSAS.h(43,17): warning C4091: 'typedef ': ignored on left of 'pGina::GINA::DialogLoggedOutSAS::DialogResult' when no variable is declared
+14>(compiling source file 'DialogLoggedOutSAS.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+12>(compiling source file '../../CredentialProvider/Provider.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiTypes.h(44,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::PGINA_FIELD_DATA_SOURCE' when no variable is declared
+12>(compiling source file '../../CredentialProvider/Provider.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiLogon.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::LOGON_UI_FIELD_ID' when no variable is declared
+12>(compiling source file '../../CredentialProvider/Provider.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiUnlock.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::LOCKED_UI_FIELD_ID' when no variable is declared
+12>(compiling source file '../../CredentialProvider/Provider.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiChangePassword.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::CHANGE_PASSWORD_UI_FIELD_ID' when no variable is declared
+12>(compiling source file '../../CredentialProvider/Provider.cpp')
+14>Dll.cpp
+12>ProviderGuid.cpp
+12>SerializationHelpers.cpp
+14>Gina.cpp
+12>ServiceStateHelper.cpp
+14>GinaChain.cpp
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+12>(compiling source file '../../CredentialProvider/ServiceStateHelper.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+12>(compiling source file '../../CredentialProvider/ServiceStateHelper.cpp')
+12>C:\Users\trungvl\Projects\pgina\pGina\src\CredentialProvider\TileUiTypes.h(44,16): warning C4091: 'typedef ': ignored on left of 'pGina::CredProv::PGINA_FIELD_DATA_SOURCE' when no variable is declared
+12>(compiling source file '../../CredentialProvider/ServiceStateHelper.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+14>(compiling source file 'GinaChain.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+14>(compiling source file 'GinaChain.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Gina\Gina\DialogLoggedOutSAS.h(43,17): warning C4091: 'typedef ': ignored on left of 'pGina::GINA::DialogLoggedOutSAS::DialogResult' when no variable is declared
+14>(compiling source file 'GinaChain.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Gina\Gina\GinaChain.cpp(301,13): warning C4311: 'type cast': pointer truncation from 'LPWSTR' to 'DWORD'
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Gina\Gina\GinaChain.cpp(301,13): warning C4302: 'type cast': truncation from 'LPWSTR' to 'DWORD'
+14>GinaExports.cpp
+12>   Creating library C:\Users\trungvl\Projects\pgina\pGina\src\\bin\x64\pGinaCredentialProvider.lib and object C:\Users\trungvl\Projects\pgina\pGina\src\\bin\x64\pGinaCredentialProvider.exp
+12>Generating code
+12>Previous IPDB not found, fall back to full compilation.
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+14>(compiling source file '../Gina/Gina/GinaExports.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+14>(compiling source file '../Gina/Gina/GinaExports.cpp')
+14>GinaWrapper.cpp
+12>All 907 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+14>HookedLoggedOutSAS.cpp
+12>Finished generating code
+12>CredentialProvider.vcxproj -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\x64\pGinaCredentialProvider.dll
+12>Done building project "CredentialProvider.vcxproj".
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\MessageProperty.h(36,16): warning C4091: 'typedef ': ignored on left of 'pGina::Messaging::PropertyType' when no variable is declared
+14>(compiling source file '../Gina/Gina/HookedLoggedOutSAS.cpp')
+14>C:\Users\trungvl\Projects\pgina\pGina\src\Lib\pGinaMessages.h(39,16): warning C4091: 'typedef ': ignored on left of 'pGina::Protocol::MessageType' when no variable is declared
+14>(compiling source file '../Gina/Gina/HookedLoggedOutSAS.cpp')
+14>Themes.cpp
+14>Winlogon.cpp
+14>WinlogonDebug.cpp
+14>WinlogonReal.cpp
+14>WinlogonRouter.cpp
+14>   Creating library C:\Users\trungvl\Projects\pgina\pGina\src\\bin\x64\pGinaGINA.lib and object C:\Users\trungvl\Projects\pgina\pGina\src\\bin\x64\pGinaGINA.exp
+14>Generating code
+14>Previous IPDB not found, fall back to full compilation.
+14>All 722 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+14>Finished generating code
+14>Gina.vcxproj -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\x64\pGinaGINA.dll
+14>Done building project "Gina.vcxproj".
+15>------ Rebuild All started: Project: FakeWinlogon, Configuration: Release x64 ------
+15>FakeWinlogon.cpp
+15>stdafx.cpp
+15>Generating code
+15>Previous IPDB not found, fall back to full compilation.
+15>All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+15>Finished generating code
+15>FakeWinlogon.vcxproj -> C:\Users\trungvl\Projects\pgina\pGina\src\bin\x64\FakeWinlogon.exe
+========== Rebuild All: 15 succeeded, 0 failed, 0 skipped ==========
+========== Rebuild completed at 2:20 PM and took 29.293 seconds ==========
+

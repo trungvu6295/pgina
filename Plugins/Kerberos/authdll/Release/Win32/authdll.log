@@ -1,0 +1,28 @@
+﻿  authfuncs.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.dll) does not match the Linker's OutputFile property value (C:\Users\trungvl\Projects\pgina\Plugins\bin\authdll.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.lib and object C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  authdll.vcxproj -> C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.dll
+  
+  Microsoft Visual Studio 2022 Version 17.11.5.
+  Copyright (C) Microsoft Corp. All rights reserved.
+  Build started at 2:21 PM...
+  1>------ Build started: Project: authdll, Configuration: Release x64 ------
+  1>authfuncs.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\x64\authdllx64.dll) does not match the Linker's OutputFile property value (C:\Users\trungvl\Projects\pgina\Plugins\bin\authdllx64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  1>   Creating library C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\x64\authdllx64.lib and object C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\x64\authdllx64.exp
+  1>Generating code
+  1>Previous IPDB not found, fall back to full compilation.
+  1>All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1>Finished generating code
+  1>authdll.vcxproj -> C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\x64\authdllx64.dll
+  1>Done building project "authdll.vcxproj".
+  ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+  ========== Build completed at 2:22 PM and took 05.732 seconds ==========
+  C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.log - The process cannot access the file because it is being used by another process.
+  Could Not Find C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\Win32\*.lib
+  Could Not Find C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Debug\x64\*.lib
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(393,5): warning MSB8082: Cannot write 'C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.tlog\Cl.items.tlog': 'Could not find a part of the path 'C:\Users\trungvl\Projects\pgina\Plugins\Kerberos\authdll\Release\Win32\authdll.tlog\Cl.items.tlog'.'. Tlogs cleanup might be incomplete and the next incremental build might be affected.

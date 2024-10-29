@@ -1,0 +1,8 @@
+Rebuild started at 5:12 PM...
+1>------ Rebuild All started: Project: EmailAuth, Configuration: Release Any CPU ------
+
+Package 'Code Analysis Package' failed to load.
+1>  EmailAuth -> C:\Users\trungvl\Projects\pgina\Plugins\bin\pGina.Plugin.Email.dll
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+========== Rebuild completed at 5:12 PM and took 00.790 seconds ==========
+
