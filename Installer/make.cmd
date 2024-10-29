@@ -1,12 +1,12 @@
 @echo off
-call %~dps0..\pGina\src\compile.cmd batch || exit /b 1
-call %~dps0..\Plugins\compile.cmd batch || exit /b 1
+::call %~dps0..\pGina\src\compile.cmd batch || exit /b 1
+::call %~dps0..\Plugins\compile.cmd batch || exit /b 1
 
-set inno=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 5_is1
-set ProgramFiles(x86) && set inno=HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 5_is1
+set inno=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 6_is1
+set ProgramFiles(x86) && set inno=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 6_is1
 
 reg.exe query "%inno%" /v DisplayIcon || (
-	@echo cant find DisplayIcon in HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 5_is1
+	@echo cant find DisplayIcon in HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 6_is1
 	pause
 	exit /b 1
 )

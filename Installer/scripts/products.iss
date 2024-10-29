@@ -277,17 +277,10 @@ begin
 	Result := Is64BitInstallMode and (ProcessorArchitecture = paX64);
 end;
 
-function IsIA64: Boolean;
-begin
-	Result := Is64BitInstallMode and (ProcessorArchitecture = paIA64);
-end;
-
 function GetURL(x86, x64, ia64: String): String;
 begin
 	if IsX64() and (x64 <> '') then
 		Result := x64;
-	if IsIA64() and (ia64 <> '') then
-		Result := ia64;
 	
 	if Result = '' then
 		Result := x86;

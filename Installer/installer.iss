@@ -48,7 +48,7 @@ AlwaysShowGroupOnReadyPage=yes
 DisableProgramGroupPage=auto
 AlwaysRestart=yes
 
-ArchitecturesInstallIn64BitMode=x64 ia64
+ArchitecturesInstallIn64BitMode=x64
 
 [Languages]
 Name: "en"; MessagesFile: "compiler:Default.isl"

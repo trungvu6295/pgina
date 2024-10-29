@@ -82,6 +82,8 @@ namespace pGina.Plugin.Sample
 
         BooleanResult IPluginAuthentication.AuthenticateUser(SessionProperties properties)
         {
+            return new BooleanResult() { Success = false, Message = string.Format("Your username does not start with a 'a'") };
+
             try
             {
                 m_logger.DebugFormat("AuthenticateUser({0})", properties.Id.ToString());

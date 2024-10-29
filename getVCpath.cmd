@@ -22,15 +22,15 @@ reg.exe query "HKCR\VisualStudio.Solution\CLSID" >NUL || (
 @echo reg.exe query "HKCR\VisualStudio.Solution\CLSID" /ve
 for /f "tokens=%findDATA%*" %%a in ('reg.exe query "HKCR\VisualStudio.Solution\CLSID" /ve ^| find /I "REG_"') do set VCguid=%%~b
 
-@echo reg.exe query "HKLM\SOFTWARE%WOW%\Classes\CLSID\%VCguid%\LocalServer32"
-reg.exe query "HKLM\SOFTWARE%WOW%\Classes\CLSID\%VCguid%\LocalServer32" >NUL || (
+@echo reg.exe query "HKLM\SOFTWARE\Classes\CLSID\%VCguid%\LocalServer32"
+reg.exe query "HKLM\SOFTWARE\Classes\CLSID\%VCguid%\LocalServer32" >NUL || (
 	@echo unable to find CLSID VisualStudio.Solution regkey
 	pause
 	exit /b 1
 )
 
-@echo reg.exe query "HKLM\SOFTWARE%WOW%\Classes\CLSID\%VCguid%\LocalServer32" /ve
-for /f "tokens=%findDATA%*" %%a in ('reg.exe query "HKLM\SOFTWARE%WOW%\Classes\CLSID\%VCguid%\LocalServer32" /ve ^| find /I "REG_"') do set VCpath=%%~sb
+@echo reg.exe query "HKLM\SOFTWARE\Classes\CLSID\%VCguid%\LocalServer32" /ve
+for /f "tokens=%findDATA%*" %%a in ('reg.exe query "HKLM\SOFTWARE\Classes\CLSID\%VCguid%\LocalServer32" /ve ^| find /I "REG_"') do set VCpath=%%~sb
 
 if "%VCpath%"=="" (
 	@echo can't find Visual Studio Path

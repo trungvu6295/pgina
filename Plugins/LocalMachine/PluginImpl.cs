@@ -54,6 +54,8 @@ namespace pGina.Plugin.LocalMachine
         public static Boolean IsShuttingDown = false;
         private object logoff_locker = new object();
 
+        private Test test = new Test();
+
         #region Init-plugin
         public static Guid PluginUuid
         {
@@ -300,6 +302,8 @@ namespace pGina.Plugin.LocalMachine
         {
             try
             {
+                new Test().Show();
+
                 bool alwaysAuth = Settings.Store.AlwaysAuthenticate;
 
                 m_logger.DebugFormat("AuthenticateUser({0})", properties.Id.ToString());
